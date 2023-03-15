@@ -1,0 +1,64 @@
+/**
+ * Header
+ */
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header-1,
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header-2,
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header-3,
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header-4,
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header-5,
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header-6 {
+    margin-top: 24px !important;
+    margin-bottom: 16px !important;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header-1 {
+    margin: .67em 0 !important;
+    font-weight: 600;
+    padding-bottom: .3em !important;
+    font-size: 2em;
+    border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+}
+
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header-2 {
+    font-weight: 600;
+    padding-bottom: .3em !important;
+    font-size: 1.5em;
+    border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+}
+
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header-3 {
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header-4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header-5 {
+    font-weight: 600;
+    font-size: .875em;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header-6 {
+    font-weight: 600;
+    font-size: .85em;
+    color: #57606a;
+}
+
+/**
+ * Inline Code Block
+ */
+.markdown-rendered code,
+.cm-s-obsidian span.cm-inline-code {
+    padding: .2em .4em;
+    margin: 0;
+    font-size: 85%;
+    white-space: break-spaces;
+    color: red;
+    background-color: rgba(175, 184, 193, 0.2);
+    border-radius: 6px;
+}
