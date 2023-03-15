@@ -2,5 +2,5 @@
 
 > Currently in progress.
 
-This repository has various custom css snippets for obsidian.
+This repository has various custom css snippets for [obsidian](https://obsidian.md/).
 
